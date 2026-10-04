@@ -1,5 +1,7 @@
 # QA Test Helpers
 
+[![CI](https://github.com/MarioGRodriguez28/qa-test-helpers/actions/workflows/test.yml/badge.svg)](https://github.com/MarioGRodriguez28/qa-test-helpers/actions/workflows/test.yml)
+
 A professional, production-ready library of QA testing utilities — fluent API builders, realistic test data generators, powerful validators, and beautiful test reporters.
 
 ## Features
