@@ -1,0 +1,32 @@
+{
+  "name": "qa-test-helpers",
+  "version": "1.0.0",
+  "description": "Professional QA testing helpers library - fluent API builders, fixtures, validators, and reporters",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "helpers",
+    "fixtures",
+    "validators",
+    "test-builder",
+    "automation"
+  ],
+  "author": "Mario Rodríguez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarioGRodriguez28/qa-test-helpers.git"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "files": [
+    "src/"
+  ]
+}
