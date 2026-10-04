@@ -95,7 +95,7 @@ class FixtureGenerator {
   static generateBatch(generator, count = 10, overrides = {}) {
     const batch = [];
     for (let i = 0; i < count; i++) {
-      batch.push(generator({ ...overrides, id: this.generateId() }));
+      batch.push(generator.call(this, { ...overrides, id: this.generateId() }));
     }
     return batch;
   }

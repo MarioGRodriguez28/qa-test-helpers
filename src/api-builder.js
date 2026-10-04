@@ -77,7 +77,7 @@ class APIRequestBuilder {
 
   build() {
     const url = new URL(this.baseURL);
-    url.pathname += this.endpoint;
+    url.pathname = url.pathname.replace(/\/+$/, '') + '/' + this.endpoint.replace(/^\/+/, '');
 
     Object.entries(this.params).forEach(([key, value]) => {
       url.searchParams.append(key, value);
