@@ -278,3 +278,7 @@ Mario Rodríguez - QA Automation Engineer
 ---
 
 For issues, questions, or contributions: [GitHub Issues](https://github.com/MarioGRodriguez28/qa-test-helpers/issues)
+
+---
+
+Part of my [QA automation portfolio](https://github.com/MarioGRodriguez28/qa-portfolio-docs). More about my work at [mariogrodriguez.com](https://mariogrodriguez.com).
